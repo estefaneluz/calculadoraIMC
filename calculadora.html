@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculadora Javacript</title>
   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -24,7 +25,7 @@
         <h3>Idade</h3>
         <input type="text" name="idade" id="idade" placeholder="35"><label for="idade">anos</label>
         <h3>Altura</h3>
-        <input type="text" name="altur" id=" altura" placeholder="1.60"><label for="altura">m</label>
+        <input type="text" name="altura" id="altura" placeholder="1.60"><label for="altura"></label>
         <h3>Peso</h3>
         <input type="text" name="peso" id="peso" placeholder="62.5"><label for="peso">kg</label>
       </div>
@@ -39,7 +40,13 @@
       </div>
       <button type="submit" class="btn" id="btnCalc">Calcular</button>
     </form>
+    <div>
+      <p id="resultado"></p>
+    </div>
   </div>
+
+  <script src="calc.js"></script>
+
 </body>
 
 </html>
