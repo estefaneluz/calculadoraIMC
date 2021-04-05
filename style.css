@@ -77,3 +77,7 @@ h3 {
     opacity: 0.7;
   }
 }
+
+#resultado {
+  font-weight: 600;
+}
